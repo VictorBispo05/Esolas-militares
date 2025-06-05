@@ -21,7 +21,8 @@
     color: #ffde7c;
     background-color: #424657;
     width: 100%;
-    padding: 46px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .container_intro {
