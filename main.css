@@ -1,0 +1,184 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Ancizar Serif", serif;
+}
+
+.container {
+    margin: auto;
+    display: flex;
+    background-color: #f0f0f0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.inicio {
+    padding: 20px;
+    text-align: center;
+}
+
+.container_inicio {
+    color: #ffde7c;
+    background-color: #424657;
+    width: 100%;
+    padding: 46px;
+}
+
+.container_intro {
+    background-color: #4d784e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.txt_introdutorio {
+    line-height: 1.6;
+    font-size: 22px;
+    color: #ffffff;
+}
+
+.quali {
+    display: flex;
+    flex-direction: row;
+
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px 0;
+}
+
+.citacoes {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    padding: 20px;
+}
+
+.container_quali {
+    background-color: #424657;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px 0;
+}
+
+.container_quanti {
+    background-color: #4d784e;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    margin-bottom: 20px 0;
+}
+
+.container_txt_quali {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt_quali {
+    border-radius: 25px;
+    padding: 25px;
+    background-color: #e0e0e0;
+}
+
+.frase_container {
+    color: #f0f0f0;
+    align-items: center;
+    width: 80%;
+    padding: 20px;
+    margin: 20px 0;
+    background-color: #333;
+    border-radius: 25px;
+}
+.frase {
+    font-size: 20px;
+    line-height: 1.3;
+    color: #f0f0f0;
+    margin-bottom: 18px;
+}
+
+.frase_pessoa {
+    font-size: 18px;
+    color: #f0f0f0;
+    font-style: italic;
+    text-align: right;
+}
+
+.quanti_vs {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    padding: 20px;
+    margin-bottom: 20px 0;
+}
+
+.stats{
+    font-size: 22px;
+    border-radius: 20px;
+    color: #f0f0f0;
+    padding: 25px;
+    width: 80%;
+    text-align: center;
+    margin-top: 25px;
+    background-color: #333;
+}
+
+.edu_container {
+    width: 50%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo_quanti {
+    margin-top: 24px;
+    font-size: 24px;
+    color: #f0f0f0;
+    margin-bottom: 24px;
+    padding: 12px;
+    background-color: #333;
+    border-radius: 12px;
+}
+
+.titulo_quali {
+    width: 30%;
+    font-size: 24px;
+    color: #f0f0f0;
+    margin-bottom: 24px;
+    padding: 12px;
+    background-color: #333;
+    border-radius: 12px;
+}
+
+.edu_titulo {
+    text-align: center;
+    font-size: 25px;
+    color: #333;
+    margin-bottom: 12px;
+}
+
+.quanti_dados {
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
