@@ -109,12 +109,11 @@
 }
 
 .frase_container {
-    color: #f0f0f0;
     align-items: center;
     width: 80%;
     padding: 20px;
     margin: 20px 0;
-    background-color: #333;
+    background-color: #3333338c;
     border-radius: 25px;
 }
 .frase {
@@ -143,7 +142,7 @@
 .stats{
     font-size: 22px;
     border-radius: 20px;
-    color: #f0f0f0;
+    color: #fcf2d6;
     padding: 20px;
     width: 80%;
     text-align: center;
