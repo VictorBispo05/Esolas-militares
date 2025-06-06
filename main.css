@@ -106,7 +106,7 @@
 .txt_quali {
     border-radius: 25px;
     padding: 20px;
-    background-color: #e0e0e0;
+    background-color: #e0e0e07b;
 }
 
 .frase_container {
@@ -146,6 +146,7 @@
     color: #fcf2d6;
     padding: 20px;
     width: 80%;
+    height: 300px;
     text-align: center;
     margin-top: 25px;
     background-color: #333;
@@ -215,3 +216,64 @@
     align-items: center;
     width: 80%;
 }
+
+.conc_quanti {
+    height: auto;
+    padding: 24px;
+    border: #6c9b6c dashed 2px;
+}
+
+conc_quanti_txt {
+    text-align: left;
+}
+
+@media (max-width: 768px) {
+    .quali,
+    .quanti_vs {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .citacoes,
+    .container_txt_quali,
+    .edu_container {
+        width: 100%;
+    }
+
+    .stats {
+        width: 90%;
+        height: auto;
+        padding: 20px;
+        margin-top: 20px;
+        font-size: 18px;
+    }
+
+    .edu_titulo {
+        width: 90%;
+        font-size: 20px;
+    }
+
+    .titulo_quanti,
+    .titulo_quali {
+        font-size: 22px;
+        padding: 16px;
+    }
+
+    .frase,
+    .txt_quali,
+    .txt_introdutorio {
+        font-size: 16px;
+        text-align: justify;
+    }
+
+    .frase_container {
+        width: 100%;
+        padding: 16px;
+    }
+
+    .conc_quanti {
+        padding: 20px;
+    }
+}
+
