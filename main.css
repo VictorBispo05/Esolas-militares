@@ -186,14 +186,17 @@
     font-size: 25px;
     color: #333;
     margin-bottom: 12px;
+    border-radius: 15px;
 }
 
 .edu_titulo_conv {
     color: #ffde7c;
+    border: #ffde7c dashed 2px;
 }
 
 .edu_titulo_mili {
     color: #ff3535d8;
+    border: #ff3535d8 dashed 2px;
 }
 
 .quanti_dados {
