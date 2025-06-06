@@ -125,7 +125,7 @@
 
 .frase_pessoa {
     font-size: 18px;
-    color: #f0f0f0;
+    color: #f0dca0;
     font-style: italic;
     text-align: right;
 }
@@ -148,6 +148,14 @@
     text-align: center;
     margin-top: 25px;
     background-color: #333;
+}
+
+.stats_conv {
+    border: #ffde7c dashed 2px;
+}
+
+.stats_mili {
+    border: #ff3535d8 dashed 2px;
 }
 
 .edu_container {
