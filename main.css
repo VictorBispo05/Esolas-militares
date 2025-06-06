@@ -179,10 +179,22 @@
 }
 
 .edu_titulo {
+    width: 45%;
+    border: #333 dashed 2px;
+    padding: 12px;
+    background-color: #366337a2;
     text-align: center;
     font-size: 25px;
     color: #333;
     margin-bottom: 12px;
+}
+
+.edu_titulo_conv {
+    color: #ffde7c;
+}
+
+.edu_titulo_mili {
+    color: #ff3535d8;
 }
 
 .quanti_dados {
